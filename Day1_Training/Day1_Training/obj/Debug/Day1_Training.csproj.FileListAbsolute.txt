@@ -1,0 +1,10 @@
+D:\Ics_Training_Each_Day\Day1_Training\Day1_Training\bin\Debug\Day1_Training.exe.config
+D:\Ics_Training_Each_Day\Day1_Training\Day1_Training\bin\Debug\Day1_Training.exe
+D:\Ics_Training_Each_Day\Day1_Training\Day1_Training\bin\Debug\Day1_Training.pdb
+D:\Ics_Training_Each_Day\Day1_Training\Day1_Training\obj\Debug\Day1_Training.csproj.CoreCompileInputs.cache
+D:\Ics_Training_Each_Day\Day1_Training\Day1_Training\obj\Debug\Day1_Training.exe
+D:\Ics_Training_Each_Day\Day1_Training\Day1_Training\obj\Debug\Day1_Training.pdb
+D:\Ics_Training_Each_Day\Day1_Training\Day1_Training\bin\Debug\MyDll.dll
+D:\Ics_Training_Each_Day\Day1_Training\Day1_Training\bin\Debug\MyDll.pdb
+D:\Ics_Training_Each_Day\Day1_Training\Day1_Training\obj\Debug\Day1_Training.csproj.AssemblyReference.cache
+D:\Ics_Training_Each_Day\Day1_Training\Day1_Training\obj\Debug\Day1_Training.csproj.CopyComplete

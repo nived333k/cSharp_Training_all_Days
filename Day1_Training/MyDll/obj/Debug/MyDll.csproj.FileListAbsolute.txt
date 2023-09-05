@@ -1,0 +1,5 @@
+D:\Ics_Training_Each_Day\Day1_Training\MyDll\bin\Debug\MyDll.dll
+D:\Ics_Training_Each_Day\Day1_Training\MyDll\bin\Debug\MyDll.pdb
+D:\Ics_Training_Each_Day\Day1_Training\MyDll\obj\Debug\MyDll.csproj.CoreCompileInputs.cache
+D:\Ics_Training_Each_Day\Day1_Training\MyDll\obj\Debug\MyDll.dll
+D:\Ics_Training_Each_Day\Day1_Training\MyDll\obj\Debug\MyDll.pdb
