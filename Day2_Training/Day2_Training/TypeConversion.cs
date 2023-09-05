@@ -27,7 +27,7 @@ namespace Day2_Training
             i = int.Parse(str);
             Console.WriteLine(i);
 
-            //let us use tryparse()
+            //let us use tryparse() it uses boolean
 
 
             Console.ReadLine();
