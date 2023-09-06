@@ -1,0 +1,7 @@
+D:\Ics_Training_Each_Day\Day3Training\Day3Training\bin\Debug\Day3Training.exe.config
+D:\Ics_Training_Each_Day\Day3Training\Day3Training\bin\Debug\Day3Training.exe
+D:\Ics_Training_Each_Day\Day3Training\Day3Training\bin\Debug\Day3Training.pdb
+D:\Ics_Training_Each_Day\Day3Training\Day3Training\obj\Debug\Day3Training.csproj.AssemblyReference.cache
+D:\Ics_Training_Each_Day\Day3Training\Day3Training\obj\Debug\Day3Training.csproj.CoreCompileInputs.cache
+D:\Ics_Training_Each_Day\Day3Training\Day3Training\obj\Debug\Day3Training.exe
+D:\Ics_Training_Each_Day\Day3Training\Day3Training\obj\Debug\Day3Training.pdb
