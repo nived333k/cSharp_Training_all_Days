@@ -20,7 +20,7 @@ namespace Day3Training
         public static void Calculate(int a ,int b ,out int sum , out int product , out int difference, out int division)
                 
         {
-            //
+
             Console.WriteLine(sum = a + b);
             Console.WriteLine(product = a * b);
             Console.WriteLine(division = a / b);
