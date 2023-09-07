@@ -1,0 +1,7 @@
+D:\Ics_Training_Each_Day\Day4_training\Assignment_string\bin\Debug\Assignment_string.exe.config
+D:\Ics_Training_Each_Day\Day4_training\Assignment_string\bin\Debug\Assignment_string.exe
+D:\Ics_Training_Each_Day\Day4_training\Assignment_string\bin\Debug\Assignment_string.pdb
+D:\Ics_Training_Each_Day\Day4_training\Assignment_string\obj\Debug\Assignment_string.csproj.CoreCompileInputs.cache
+D:\Ics_Training_Each_Day\Day4_training\Assignment_string\obj\Debug\Assignment_string.exe
+D:\Ics_Training_Each_Day\Day4_training\Assignment_string\obj\Debug\Assignment_string.pdb
+D:\Ics_Training_Each_Day\Day4_training\Assignment_string\obj\Debug\Assignment_string.csproj.AssemblyReference.cache
