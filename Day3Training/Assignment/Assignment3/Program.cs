@@ -16,19 +16,20 @@ namespace Assignment3
             string opr = Console.ReadLine();
             Console.WriteLine("Enter integer 2");
             int num2 = Convert.ToInt32(Console.ReadLine());
+
             if (opr == "+")
             {
-                Console.WriteLine("the sum is"+(num1+num2));
+                Console.WriteLine("the sum is" + (num1 + num2));
                 Console.ReadLine();
 
             }
             else if (opr == "-")
             {
-                Console.WriteLine("the diff is"+(num1-num2));
+                Console.WriteLine("the diff is" + (num1 - num2));
                 Console.ReadLine();
 
             }
-            else if(opr == "*")
+            else if (opr == "*")
             {
                 Console.WriteLine("the prod is" + (num1 * num2));
                 Console.ReadLine();
@@ -41,6 +42,11 @@ namespace Assignment3
                 Console.ReadLine();
 
             }
+
+
+
+        }
+
 
         }
     }
