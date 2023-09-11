@@ -1,0 +1,7 @@
+D:\Ics_Training_Each_Day\CSharp_Code_Base_Exam1\CodeBase\CodeBase\bin\Debug\CodeBase.exe.config
+D:\Ics_Training_Each_Day\CSharp_Code_Base_Exam1\CodeBase\CodeBase\bin\Debug\CodeBase.exe
+D:\Ics_Training_Each_Day\CSharp_Code_Base_Exam1\CodeBase\CodeBase\bin\Debug\CodeBase.pdb
+D:\Ics_Training_Each_Day\CSharp_Code_Base_Exam1\CodeBase\CodeBase\obj\Debug\CodeBase.csproj.AssemblyReference.cache
+D:\Ics_Training_Each_Day\CSharp_Code_Base_Exam1\CodeBase\CodeBase\obj\Debug\CodeBase.csproj.CoreCompileInputs.cache
+D:\Ics_Training_Each_Day\CSharp_Code_Base_Exam1\CodeBase\CodeBase\obj\Debug\CodeBase.exe
+D:\Ics_Training_Each_Day\CSharp_Code_Base_Exam1\CodeBase\CodeBase\obj\Debug\CodeBase.pdb

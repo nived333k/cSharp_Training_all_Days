@@ -11,7 +11,7 @@ namespace Assignment_string
         static void Main(string[] args)
         {
             //1.
-            //lenght();
+            // length();
 
 
             //2.
@@ -27,10 +27,10 @@ namespace Assignment_string
 
             //3.
 
-           // twoString();
+            // twoString();
         }
 
-        static void lenght()
+        static void length()
         {
             Console.WriteLine("enter the string ");
 
