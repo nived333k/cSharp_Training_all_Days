@@ -1,0 +1,7 @@
+D:\Ics_Training_Each_Day\assignment_4\ConsoleApp1\Students\bin\Debug\Students.exe.config
+D:\Ics_Training_Each_Day\assignment_4\ConsoleApp1\Students\bin\Debug\Students.exe
+D:\Ics_Training_Each_Day\assignment_4\ConsoleApp1\Students\bin\Debug\Students.pdb
+D:\Ics_Training_Each_Day\assignment_4\ConsoleApp1\Students\obj\Debug\Students.csproj.AssemblyReference.cache
+D:\Ics_Training_Each_Day\assignment_4\ConsoleApp1\Students\obj\Debug\Students.csproj.CoreCompileInputs.cache
+D:\Ics_Training_Each_Day\assignment_4\ConsoleApp1\Students\obj\Debug\Students.exe
+D:\Ics_Training_Each_Day\assignment_4\ConsoleApp1\Students\obj\Debug\Students.pdb
