@@ -1,0 +1,7 @@
+D:\Ics_Training_Each_Day\assignment_5\stringupper\customer\bin\Debug\customer.exe.config
+D:\Ics_Training_Each_Day\assignment_5\stringupper\customer\bin\Debug\customer.exe
+D:\Ics_Training_Each_Day\assignment_5\stringupper\customer\bin\Debug\customer.pdb
+D:\Ics_Training_Each_Day\assignment_5\stringupper\customer\obj\Debug\customer.csproj.AssemblyReference.cache
+D:\Ics_Training_Each_Day\assignment_5\stringupper\customer\obj\Debug\customer.csproj.CoreCompileInputs.cache
+D:\Ics_Training_Each_Day\assignment_5\stringupper\customer\obj\Debug\customer.exe
+D:\Ics_Training_Each_Day\assignment_5\stringupper\customer\obj\Debug\customer.pdb

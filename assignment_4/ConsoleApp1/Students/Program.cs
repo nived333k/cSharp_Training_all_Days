@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Students
 {
-    class student
+     class student
     {
 
         public string rollno;

@@ -1,0 +1,7 @@
+D:\Ics_Training_Each_Day\assignment_5\stringupper\stringupper\bin\Debug\stringupper.exe.config
+D:\Ics_Training_Each_Day\assignment_5\stringupper\stringupper\bin\Debug\stringupper.exe
+D:\Ics_Training_Each_Day\assignment_5\stringupper\stringupper\bin\Debug\stringupper.pdb
+D:\Ics_Training_Each_Day\assignment_5\stringupper\stringupper\obj\Debug\stringupper.csproj.AssemblyReference.cache
+D:\Ics_Training_Each_Day\assignment_5\stringupper\stringupper\obj\Debug\stringupper.csproj.CoreCompileInputs.cache
+D:\Ics_Training_Each_Day\assignment_5\stringupper\stringupper\obj\Debug\stringupper.exe
+D:\Ics_Training_Each_Day\assignment_5\stringupper\stringupper\obj\Debug\stringupper.pdb

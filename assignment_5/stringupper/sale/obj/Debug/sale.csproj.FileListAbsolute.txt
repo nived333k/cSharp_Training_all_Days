@@ -1,0 +1,7 @@
+D:\Ics_Training_Each_Day\assignment_5\stringupper\sale\bin\Debug\sale.exe.config
+D:\Ics_Training_Each_Day\assignment_5\stringupper\sale\bin\Debug\sale.exe
+D:\Ics_Training_Each_Day\assignment_5\stringupper\sale\bin\Debug\sale.pdb
+D:\Ics_Training_Each_Day\assignment_5\stringupper\sale\obj\Debug\sale.csproj.AssemblyReference.cache
+D:\Ics_Training_Each_Day\assignment_5\stringupper\sale\obj\Debug\sale.csproj.CoreCompileInputs.cache
+D:\Ics_Training_Each_Day\assignment_5\stringupper\sale\obj\Debug\sale.exe
+D:\Ics_Training_Each_Day\assignment_5\stringupper\sale\obj\Debug\sale.pdb
