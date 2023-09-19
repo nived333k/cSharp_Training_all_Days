@@ -1,0 +1,7 @@
+D:\Ics_Training_Each_Day\Csharp_code_Base_Exam2\question1\question1\bin\Debug\question1.exe.config
+D:\Ics_Training_Each_Day\Csharp_code_Base_Exam2\question1\question1\bin\Debug\question1.exe
+D:\Ics_Training_Each_Day\Csharp_code_Base_Exam2\question1\question1\bin\Debug\question1.pdb
+D:\Ics_Training_Each_Day\Csharp_code_Base_Exam2\question1\question1\obj\Debug\question1.csproj.AssemblyReference.cache
+D:\Ics_Training_Each_Day\Csharp_code_Base_Exam2\question1\question1\obj\Debug\question1.csproj.CoreCompileInputs.cache
+D:\Ics_Training_Each_Day\Csharp_code_Base_Exam2\question1\question1\obj\Debug\question1.exe
+D:\Ics_Training_Each_Day\Csharp_code_Base_Exam2\question1\question1\obj\Debug\question1.pdb
