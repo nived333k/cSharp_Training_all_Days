@@ -1,0 +1,7 @@
+C:\Users\nivedn\source\repos\exception\day9\bin\Debug\day9.exe.config
+C:\Users\nivedn\source\repos\exception\day9\bin\Debug\day9.exe
+C:\Users\nivedn\source\repos\exception\day9\bin\Debug\day9.pdb
+C:\Users\nivedn\source\repos\exception\day9\obj\Debug\day9.csproj.AssemblyReference.cache
+C:\Users\nivedn\source\repos\exception\day9\obj\Debug\day9.csproj.CoreCompileInputs.cache
+C:\Users\nivedn\source\repos\exception\day9\obj\Debug\day9.exe
+C:\Users\nivedn\source\repos\exception\day9\obj\Debug\day9.pdb

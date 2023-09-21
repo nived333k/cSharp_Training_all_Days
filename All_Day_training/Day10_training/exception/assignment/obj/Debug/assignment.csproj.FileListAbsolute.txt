@@ -1,0 +1,7 @@
+C:\Users\nivedn\source\repos\exception\assignment\bin\Debug\assignment.exe.config
+C:\Users\nivedn\source\repos\exception\assignment\bin\Debug\assignment.exe
+C:\Users\nivedn\source\repos\exception\assignment\bin\Debug\assignment.pdb
+C:\Users\nivedn\source\repos\exception\assignment\obj\Debug\assignment.csproj.AssemblyReference.cache
+C:\Users\nivedn\source\repos\exception\assignment\obj\Debug\assignment.csproj.CoreCompileInputs.cache
+C:\Users\nivedn\source\repos\exception\assignment\obj\Debug\assignment.exe
+C:\Users\nivedn\source\repos\exception\assignment\obj\Debug\assignment.pdb

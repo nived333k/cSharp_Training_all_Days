@@ -1,0 +1,7 @@
+C:\Users\nivedn\source\repos\exception\generic\bin\Debug\generic.exe.config
+C:\Users\nivedn\source\repos\exception\generic\bin\Debug\generic.exe
+C:\Users\nivedn\source\repos\exception\generic\bin\Debug\generic.pdb
+C:\Users\nivedn\source\repos\exception\generic\obj\Debug\generic.csproj.CoreCompileInputs.cache
+C:\Users\nivedn\source\repos\exception\generic\obj\Debug\generic.exe
+C:\Users\nivedn\source\repos\exception\generic\obj\Debug\generic.pdb
+C:\Users\nivedn\source\repos\exception\generic\obj\Debug\generic.csproj.AssemblyReference.cache

@@ -1,0 +1,7 @@
+C:\Users\nivedn\source\repos\exception\collectionClass\bin\Debug\collectionClass.exe.config
+C:\Users\nivedn\source\repos\exception\collectionClass\bin\Debug\collectionClass.exe
+C:\Users\nivedn\source\repos\exception\collectionClass\bin\Debug\collectionClass.pdb
+C:\Users\nivedn\source\repos\exception\collectionClass\obj\Debug\collectionClass.csproj.AssemblyReference.cache
+C:\Users\nivedn\source\repos\exception\collectionClass\obj\Debug\collectionClass.csproj.CoreCompileInputs.cache
+C:\Users\nivedn\source\repos\exception\collectionClass\obj\Debug\collectionClass.exe
+C:\Users\nivedn\source\repos\exception\collectionClass\obj\Debug\collectionClass.pdb

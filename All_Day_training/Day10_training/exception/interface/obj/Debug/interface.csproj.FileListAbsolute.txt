@@ -1,0 +1,7 @@
+C:\Users\nivedn\source\repos\exception\interface\bin\Debug\@interface.exe.config
+C:\Users\nivedn\source\repos\exception\interface\bin\Debug\@interface.exe
+C:\Users\nivedn\source\repos\exception\interface\bin\Debug\@interface.pdb
+C:\Users\nivedn\source\repos\exception\interface\obj\Debug\interface.csproj.AssemblyReference.cache
+C:\Users\nivedn\source\repos\exception\interface\obj\Debug\interface.csproj.CoreCompileInputs.cache
+C:\Users\nivedn\source\repos\exception\interface\obj\Debug\@interface.exe
+C:\Users\nivedn\source\repos\exception\interface\obj\Debug\@interface.pdb
