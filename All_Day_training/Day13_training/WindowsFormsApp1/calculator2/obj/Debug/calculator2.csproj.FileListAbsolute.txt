@@ -1,0 +1,9 @@
+D:\Ics_Training_Each_Day\Day13_training\WindowsFormsApp1\calculator2\bin\Debug\calculator2.dll
+D:\Ics_Training_Each_Day\Day13_training\WindowsFormsApp1\calculator2\bin\Debug\calculator2.pdb
+D:\Ics_Training_Each_Day\Day13_training\WindowsFormsApp1\calculator2\bin\Debug\calculatorDLL.dll
+D:\Ics_Training_Each_Day\Day13_training\WindowsFormsApp1\calculator2\bin\Debug\calculatorDLL.pdb
+D:\Ics_Training_Each_Day\Day13_training\WindowsFormsApp1\calculator2\obj\Debug\calculator2.csproj.AssemblyReference.cache
+D:\Ics_Training_Each_Day\Day13_training\WindowsFormsApp1\calculator2\obj\Debug\calculator2.csproj.CoreCompileInputs.cache
+D:\Ics_Training_Each_Day\Day13_training\WindowsFormsApp1\calculator2\obj\Debug\calculator2.csproj.CopyComplete
+D:\Ics_Training_Each_Day\Day13_training\WindowsFormsApp1\calculator2\obj\Debug\calculator2.dll
+D:\Ics_Training_Each_Day\Day13_training\WindowsFormsApp1\calculator2\obj\Debug\calculator2.pdb

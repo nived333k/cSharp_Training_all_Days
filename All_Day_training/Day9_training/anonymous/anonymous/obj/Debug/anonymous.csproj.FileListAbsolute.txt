@@ -1,0 +1,7 @@
+D:\Ics_Training_Each_Day\Day9_training\anonymous\anonymous\bin\Debug\anonymous.exe.config
+D:\Ics_Training_Each_Day\Day9_training\anonymous\anonymous\bin\Debug\anonymous.exe
+D:\Ics_Training_Each_Day\Day9_training\anonymous\anonymous\bin\Debug\anonymous.pdb
+D:\Ics_Training_Each_Day\Day9_training\anonymous\anonymous\obj\Debug\anonymous.csproj.AssemblyReference.cache
+D:\Ics_Training_Each_Day\Day9_training\anonymous\anonymous\obj\Debug\anonymous.csproj.CoreCompileInputs.cache
+D:\Ics_Training_Each_Day\Day9_training\anonymous\anonymous\obj\Debug\anonymous.exe
+D:\Ics_Training_Each_Day\Day9_training\anonymous\anonymous\obj\Debug\anonymous.pdb

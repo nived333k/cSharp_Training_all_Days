@@ -1,0 +1,7 @@
+D:\Ics_Training_Each_Day\Day9_training\fileHandling\fileHandling\bin\Debug\fileHandling.exe.config
+D:\Ics_Training_Each_Day\Day9_training\fileHandling\fileHandling\bin\Debug\fileHandling.exe
+D:\Ics_Training_Each_Day\Day9_training\fileHandling\fileHandling\bin\Debug\fileHandling.pdb
+D:\Ics_Training_Each_Day\Day9_training\fileHandling\fileHandling\obj\Debug\fileHandling.csproj.AssemblyReference.cache
+D:\Ics_Training_Each_Day\Day9_training\fileHandling\fileHandling\obj\Debug\fileHandling.csproj.CoreCompileInputs.cache
+D:\Ics_Training_Each_Day\Day9_training\fileHandling\fileHandling\obj\Debug\fileHandling.exe
+D:\Ics_Training_Each_Day\Day9_training\fileHandling\fileHandling\obj\Debug\fileHandling.pdb

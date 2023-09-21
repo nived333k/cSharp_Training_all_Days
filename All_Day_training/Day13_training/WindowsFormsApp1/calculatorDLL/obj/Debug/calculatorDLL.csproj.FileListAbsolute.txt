@@ -1,0 +1,6 @@
+D:\Ics_Training_Each_Day\Day13_training\WindowsFormsApp1\calculatorDLL\bin\Debug\calculatorDLL.dll
+D:\Ics_Training_Each_Day\Day13_training\WindowsFormsApp1\calculatorDLL\bin\Debug\calculatorDLL.pdb
+D:\Ics_Training_Each_Day\Day13_training\WindowsFormsApp1\calculatorDLL\obj\Debug\calculatorDLL.csproj.AssemblyReference.cache
+D:\Ics_Training_Each_Day\Day13_training\WindowsFormsApp1\calculatorDLL\obj\Debug\calculatorDLL.csproj.CoreCompileInputs.cache
+D:\Ics_Training_Each_Day\Day13_training\WindowsFormsApp1\calculatorDLL\obj\Debug\calculatorDLL.dll
+D:\Ics_Training_Each_Day\Day13_training\WindowsFormsApp1\calculatorDLL\obj\Debug\calculatorDLL.pdb

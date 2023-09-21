@@ -1,0 +1,12 @@
+D:\Ics_Training_Each_Day\Day13_training\WindowsFormsApp1\enhancements\bin\Debug\enhancements.exe.config
+D:\Ics_Training_Each_Day\Day13_training\WindowsFormsApp1\enhancements\bin\Debug\enhancements.exe
+D:\Ics_Training_Each_Day\Day13_training\WindowsFormsApp1\enhancements\bin\Debug\enhancements.pdb
+D:\Ics_Training_Each_Day\Day13_training\WindowsFormsApp1\enhancements\obj\Debug\enhancements.csproj.AssemblyReference.cache
+D:\Ics_Training_Each_Day\Day13_training\WindowsFormsApp1\enhancements\obj\Debug\enhancements.csproj.CoreCompileInputs.cache
+D:\Ics_Training_Each_Day\Day13_training\WindowsFormsApp1\enhancements\obj\Debug\enhancements.exe
+D:\Ics_Training_Each_Day\Day13_training\WindowsFormsApp1\enhancements\obj\Debug\enhancements.pdb
+D:\Ics_Training_Each_Day\Day13_training\WindowsFormsApp1\enhancements\bin\Debug\calculatorDLL.dll
+D:\Ics_Training_Each_Day\Day13_training\WindowsFormsApp1\enhancements\bin\Debug\calculatorDLL.pdb
+D:\Ics_Training_Each_Day\Day13_training\WindowsFormsApp1\enhancements\obj\Debug\enhancements.csproj.CopyComplete
+D:\Ics_Training_Each_Day\Day13_training\WindowsFormsApp1\enhancements\bin\Debug\calculator2.dll
+D:\Ics_Training_Each_Day\Day13_training\WindowsFormsApp1\enhancements\bin\Debug\calculator2.pdb

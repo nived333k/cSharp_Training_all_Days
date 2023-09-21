@@ -1,0 +1,6 @@
+D:\Ics_Training_Each_Day\Assignment\Assignment\obj\Debug\Assignment.csproj.CoreCompileInputs.cache
+D:\Ics_Training_Each_Day\Assignment\Assignment\bin\Debug\Assignment.exe.config
+D:\Ics_Training_Each_Day\Assignment\Assignment\bin\Debug\Assignment.exe
+D:\Ics_Training_Each_Day\Assignment\Assignment\bin\Debug\Assignment.pdb
+D:\Ics_Training_Each_Day\Assignment\Assignment\obj\Debug\Assignment.exe
+D:\Ics_Training_Each_Day\Assignment\Assignment\obj\Debug\Assignment.pdb
