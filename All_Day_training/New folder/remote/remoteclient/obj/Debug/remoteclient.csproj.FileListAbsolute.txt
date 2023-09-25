@@ -1,0 +1,11 @@
+D:\Ics_Training_Each_Day\All_Day_training\New folder\remote\remoteclient\bin\Debug\remoteclient.exe.config
+D:\Ics_Training_Each_Day\All_Day_training\New folder\remote\remoteclient\bin\Debug\remoteclient.exe
+D:\Ics_Training_Each_Day\All_Day_training\New folder\remote\remoteclient\bin\Debug\remoteclient.pdb
+D:\Ics_Training_Each_Day\All_Day_training\New folder\remote\remoteclient\bin\Debug\remote.exe
+D:\Ics_Training_Each_Day\All_Day_training\New folder\remote\remoteclient\bin\Debug\remote.pdb
+D:\Ics_Training_Each_Day\All_Day_training\New folder\remote\remoteclient\bin\Debug\remote.exe.config
+D:\Ics_Training_Each_Day\All_Day_training\New folder\remote\remoteclient\obj\Debug\remoteclient.csproj.AssemblyReference.cache
+D:\Ics_Training_Each_Day\All_Day_training\New folder\remote\remoteclient\obj\Debug\remoteclient.csproj.CoreCompileInputs.cache
+D:\Ics_Training_Each_Day\All_Day_training\New folder\remote\remoteclient\obj\Debug\remoteclient.csproj.CopyComplete
+D:\Ics_Training_Each_Day\All_Day_training\New folder\remote\remoteclient\obj\Debug\remoteclient.exe
+D:\Ics_Training_Each_Day\All_Day_training\New folder\remote\remoteclient\obj\Debug\remoteclient.pdb
