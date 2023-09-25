@@ -23,7 +23,7 @@ namespace tcpserver
     {
         public string sayhello(string s)
         {
-            return "hello" + s;
+            return "hello" + " " + s;
         }
 
         public int highestnumber(int x, int y)
