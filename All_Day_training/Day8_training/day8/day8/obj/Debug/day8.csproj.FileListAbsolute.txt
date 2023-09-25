@@ -5,3 +5,9 @@ D:\Ics_Training_Each_Day\Day8_training\day8\day8\obj\Debug\day8.csproj.AssemblyR
 D:\Ics_Training_Each_Day\Day8_training\day8\day8\obj\Debug\day8.csproj.CoreCompileInputs.cache
 D:\Ics_Training_Each_Day\Day8_training\day8\day8\obj\Debug\day8.exe
 D:\Ics_Training_Each_Day\Day8_training\day8\day8\obj\Debug\day8.pdb
+D:\Ics_Training_Each_Day\All_Day_training\Day8_training\day8\day8\obj\Debug\day8.csproj.CoreCompileInputs.cache
+D:\Ics_Training_Each_Day\All_Day_training\Day8_training\day8\day8\obj\Debug\day8.exe
+D:\Ics_Training_Each_Day\All_Day_training\Day8_training\day8\day8\obj\Debug\day8.pdb
+D:\Ics_Training_Each_Day\All_Day_training\Day8_training\day8\day8\bin\Debug\day8.exe
+D:\Ics_Training_Each_Day\All_Day_training\Day8_training\day8\day8\bin\Debug\day8.pdb
+D:\Ics_Training_Each_Day\All_Day_training\Day8_training\day8\day8\obj\Debug\day8.csproj.AssemblyReference.cache

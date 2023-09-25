@@ -1,0 +1,7 @@
+D:\Ics_Training_Each_Day\All_Day_training\Day14_training\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+D:\Ics_Training_Each_Day\All_Day_training\Day14_training\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+D:\Ics_Training_Each_Day\All_Day_training\Day14_training\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+D:\Ics_Training_Each_Day\All_Day_training\Day14_training\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.AssemblyReference.cache
+D:\Ics_Training_Each_Day\All_Day_training\Day14_training\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+D:\Ics_Training_Each_Day\All_Day_training\Day14_training\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+D:\Ics_Training_Each_Day\All_Day_training\Day14_training\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.pdb

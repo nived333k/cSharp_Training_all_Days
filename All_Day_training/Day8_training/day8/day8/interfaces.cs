@@ -8,24 +8,26 @@ namespace day8
 {
     interface Iemployee
     {
-        void show();
+        //we can not declare instance or static variable in an injterface
+        void show(); //by default its public and abstract normally it will be private
 
     }
 
-
-    class PartTimeEmployees : Iemployee
+    class partTimeEmp : Iemployee
     {
         public void show()
         {
             Console.WriteLine("this is a method of Iemployee interface");
         }
     }
-    class @interface
+    class interfaces
     {
         static void Main(string[] args)
         {
-            PartTimeEmployees pte = new PartTimeEmployees();
+            partTimeEmp pte = new partTimeEmp();
             pte.show();
+            Console.ReadLine();
+
         }
     }
 }

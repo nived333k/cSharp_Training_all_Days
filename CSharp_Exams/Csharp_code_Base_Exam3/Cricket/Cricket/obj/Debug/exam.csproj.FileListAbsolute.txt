@@ -1,0 +1,6 @@
+D:\Ics_Training_Each_Day\CSharp_Exams\Csharp_code_Base_Exam3\Cricket\Cricket\obj\Debug\exam.csproj.CoreCompileInputs.cache
+D:\Ics_Training_Each_Day\CSharp_Exams\Csharp_code_Base_Exam3\Cricket\Cricket\obj\Debug\Cricket.exe
+D:\Ics_Training_Each_Day\CSharp_Exams\Csharp_code_Base_Exam3\Cricket\Cricket\obj\Debug\Cricket.pdb
+D:\Ics_Training_Each_Day\CSharp_Exams\Csharp_code_Base_Exam3\Cricket\Cricket\bin\Debug\Cricket.exe.config
+D:\Ics_Training_Each_Day\CSharp_Exams\Csharp_code_Base_Exam3\Cricket\Cricket\bin\Debug\Cricket.exe
+D:\Ics_Training_Each_Day\CSharp_Exams\Csharp_code_Base_Exam3\Cricket\Cricket\bin\Debug\Cricket.pdb

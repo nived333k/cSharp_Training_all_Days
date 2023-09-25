@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{640339F0-4215-4F6E-96B1-367B8BD0FBEC}</ProjectGuid>
+    <ProjectGuid>{D41204F7-F62E-4A12-8138-008526755C0F}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>day8</RootNamespace>
-    <AssemblyName>day8</AssemblyName>
+    <RootNamespace>ConsoleApp1</RootNamespace>
+    <AssemblyName>ConsoleApp1</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -32,9 +32,6 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
-  <PropertyGroup>
-    <StartupObject>day8.multipleInheritance</StartupObject>
-  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -46,14 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="abstractClass.cs" />
-    <Compile Include="abstraction.cs" />
-    <Compile Include="abstractprop.cs" />
-    <Compile Include="enums.cs" />
-    <Compile Include="interfaces.cs" />
-    <Compile Include="interinherit.cs" />
-    <Compile Include="multipleInheritance.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
