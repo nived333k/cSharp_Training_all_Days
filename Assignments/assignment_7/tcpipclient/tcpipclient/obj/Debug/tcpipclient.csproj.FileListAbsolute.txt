@@ -1,0 +1,14 @@
+D:\Ics_Training_Each_Day\Assignments\assignment_7\tcpipclient\tcpipclient\bin\Debug\tcpipclient.exe.config
+D:\Ics_Training_Each_Day\Assignments\assignment_7\tcpipclient\tcpipclient\bin\Debug\tcpipclient.exe
+D:\Ics_Training_Each_Day\Assignments\assignment_7\tcpipclient\tcpipclient\bin\Debug\tcpipclient.pdb
+D:\Ics_Training_Each_Day\Assignments\assignment_7\tcpipclient\tcpipclient\bin\Debug\assignment_7.exe
+D:\Ics_Training_Each_Day\Assignments\assignment_7\tcpipclient\tcpipclient\bin\Debug\assignment_7.pdb
+D:\Ics_Training_Each_Day\Assignments\assignment_7\tcpipclient\tcpipclient\bin\Debug\assignment_7.exe.config
+D:\Ics_Training_Each_Day\Assignments\assignment_7\tcpipclient\tcpipclient\obj\Debug\tcpipclient.csproj.AssemblyReference.cache
+D:\Ics_Training_Each_Day\Assignments\assignment_7\tcpipclient\tcpipclient\obj\Debug\tcpipclient.Form1.resources
+D:\Ics_Training_Each_Day\Assignments\assignment_7\tcpipclient\tcpipclient\obj\Debug\tcpipclient.Properties.Resources.resources
+D:\Ics_Training_Each_Day\Assignments\assignment_7\tcpipclient\tcpipclient\obj\Debug\tcpipclient.csproj.GenerateResource.cache
+D:\Ics_Training_Each_Day\Assignments\assignment_7\tcpipclient\tcpipclient\obj\Debug\tcpipclient.csproj.CoreCompileInputs.cache
+D:\Ics_Training_Each_Day\Assignments\assignment_7\tcpipclient\tcpipclient\obj\Debug\tcpipclient.csproj.CopyComplete
+D:\Ics_Training_Each_Day\Assignments\assignment_7\tcpipclient\tcpipclient\obj\Debug\tcpipclient.exe
+D:\Ics_Training_Each_Day\Assignments\assignment_7\tcpipclient\tcpipclient\obj\Debug\tcpipclient.pdb
