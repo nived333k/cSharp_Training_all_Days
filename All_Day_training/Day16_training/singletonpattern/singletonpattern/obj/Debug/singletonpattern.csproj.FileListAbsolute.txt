@@ -1,0 +1,7 @@
+D:\Ics_Training_Each_Day\All_Day_training\Day16_training\singletonpattern\singletonpattern\bin\Debug\singletonpattern.exe.config
+D:\Ics_Training_Each_Day\All_Day_training\Day16_training\singletonpattern\singletonpattern\bin\Debug\singletonpattern.exe
+D:\Ics_Training_Each_Day\All_Day_training\Day16_training\singletonpattern\singletonpattern\bin\Debug\singletonpattern.pdb
+D:\Ics_Training_Each_Day\All_Day_training\Day16_training\singletonpattern\singletonpattern\obj\Debug\singletonpattern.csproj.AssemblyReference.cache
+D:\Ics_Training_Each_Day\All_Day_training\Day16_training\singletonpattern\singletonpattern\obj\Debug\singletonpattern.csproj.CoreCompileInputs.cache
+D:\Ics_Training_Each_Day\All_Day_training\Day16_training\singletonpattern\singletonpattern\obj\Debug\singletonpattern.exe
+D:\Ics_Training_Each_Day\All_Day_training\Day16_training\singletonpattern\singletonpattern\obj\Debug\singletonpattern.pdb
