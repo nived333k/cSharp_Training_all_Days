@@ -21,7 +21,7 @@ namespace casestudy3
 
     public class UserInterface : IUserInterface
     {
-        private AppEngine appEngine = new AppEngine();
+        private AppEngine appEng = new AppEngine();
 
         public void ShowFirstScreen()
         {
@@ -108,7 +108,7 @@ namespace casestudy3
         public void ShowAllStudentsScreen()
         {
             Console.WriteLine("List of Students:");
-            foreach (Student student in appEngine.ListOfStudents())
+            foreach (Student student in appEng.ListOfStudents())
             {
                 Console.WriteLine($"Student ID: {student.Id}, Name: {student.Name}, Date of Birth: {student.DateofBirth}");
             }
@@ -127,7 +127,7 @@ namespace casestudy3
             string stddob = Console.ReadLine();
 
             // to register students
-            appEngine.Register(new Student(studentId, studentName, stddob));
+            appEng.Register(new Student(studentId, studentName, stddob));
             Console.WriteLine("Student registered successfully.");
             Console.WriteLine("Press Enter to return to the previous menu...");
             Console.ReadLine();
@@ -142,7 +142,7 @@ namespace casestudy3
             string courseName = Console.ReadLine();
 
             //  new course
-            appEngine.Introduce(new Course(courseId, courseName));
+            appEng.Introduce(new Course(courseId, courseName));
             Console.WriteLine("Course introduced successfully.");
             Console.WriteLine("Press Enter to return to the previous menu...");
             Console.ReadLine();
@@ -152,7 +152,7 @@ namespace casestudy3
         public void ShowAllCoursesScreen()
         {
             Console.WriteLine("List of Courses:");
-            foreach (Course course in appEngine.ListOfCourses())
+            foreach (Course course in appEng.ListOfCourses())
             {
                 Console.WriteLine($"Course ID: {course.CourseId}, Name: {course.CourseName}");
             }
