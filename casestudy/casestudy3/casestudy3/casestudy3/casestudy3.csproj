@@ -33,6 +33,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="casestudy1">
+      <HintPath>..\..\..\casestudy1\casestudy1\casestudy1\bin\Debug\casestudy1.exe</HintPath>
+    </Reference>
+    <Reference Include="casestudy2">
+      <HintPath>..\..\..\casestudy2\casestudy2\casestudy2\bin\Debug\casestudy2.exe</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
