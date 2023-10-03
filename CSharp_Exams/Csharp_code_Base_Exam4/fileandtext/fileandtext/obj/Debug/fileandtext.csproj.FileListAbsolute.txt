@@ -1,0 +1,7 @@
+D:\Ics_Training_Each_Day\CSharp_Exams\Csharp_code_Base_Exam4\fileandtext\fileandtext\bin\Debug\fileandtext.exe.config
+D:\Ics_Training_Each_Day\CSharp_Exams\Csharp_code_Base_Exam4\fileandtext\fileandtext\bin\Debug\fileandtext.exe
+D:\Ics_Training_Each_Day\CSharp_Exams\Csharp_code_Base_Exam4\fileandtext\fileandtext\bin\Debug\fileandtext.pdb
+D:\Ics_Training_Each_Day\CSharp_Exams\Csharp_code_Base_Exam4\fileandtext\fileandtext\obj\Debug\fileandtext.csproj.AssemblyReference.cache
+D:\Ics_Training_Each_Day\CSharp_Exams\Csharp_code_Base_Exam4\fileandtext\fileandtext\obj\Debug\fileandtext.csproj.CoreCompileInputs.cache
+D:\Ics_Training_Each_Day\CSharp_Exams\Csharp_code_Base_Exam4\fileandtext\fileandtext\obj\Debug\fileandtext.exe
+D:\Ics_Training_Each_Day\CSharp_Exams\Csharp_code_Base_Exam4\fileandtext\fileandtext\obj\Debug\fileandtext.pdb

@@ -1,0 +1,7 @@
+D:\Ics_Training_Each_Day\CSharp_Exams\Csharp_code_Base_Exam4\employee\employee\obj\Debug\employee.csproj.AssemblyReference.cache
+D:\Ics_Training_Each_Day\CSharp_Exams\Csharp_code_Base_Exam4\employee\employee\obj\Debug\employee.csproj.CoreCompileInputs.cache
+D:\Ics_Training_Each_Day\CSharp_Exams\Csharp_code_Base_Exam4\employee\employee\bin\Debug\employee.exe.config
+D:\Ics_Training_Each_Day\CSharp_Exams\Csharp_code_Base_Exam4\employee\employee\bin\Debug\employee.exe
+D:\Ics_Training_Each_Day\CSharp_Exams\Csharp_code_Base_Exam4\employee\employee\bin\Debug\employee.pdb
+D:\Ics_Training_Each_Day\CSharp_Exams\Csharp_code_Base_Exam4\employee\employee\obj\Debug\employee.exe
+D:\Ics_Training_Each_Day\CSharp_Exams\Csharp_code_Base_Exam4\employee\employee\obj\Debug\employee.pdb
