@@ -1,0 +1,7 @@
+D:\Ics_Training_Each_Day\All_Day_training_c#\New folder\ado\ado\bin\Debug\ado.exe.config
+D:\Ics_Training_Each_Day\All_Day_training_c#\New folder\ado\ado\bin\Debug\ado.exe
+D:\Ics_Training_Each_Day\All_Day_training_c#\New folder\ado\ado\bin\Debug\ado.pdb
+D:\Ics_Training_Each_Day\All_Day_training_c#\New folder\ado\ado\obj\Debug\ado.csproj.AssemblyReference.cache
+D:\Ics_Training_Each_Day\All_Day_training_c#\New folder\ado\ado\obj\Debug\ado.csproj.CoreCompileInputs.cache
+D:\Ics_Training_Each_Day\All_Day_training_c#\New folder\ado\ado\obj\Debug\ado.exe
+D:\Ics_Training_Each_Day\All_Day_training_c#\New folder\ado\ado\obj\Debug\ado.pdb
