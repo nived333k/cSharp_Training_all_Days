@@ -1,9 +1,10 @@
 
-CREATE PROCEDURE Payslip
-@EmployeeID INT,
-@Salary DECIMAL(10, 2)
+CREATE PROCEDURE Payslips
+
 AS
 BEGIN
+	DECLARE @EmployeeID INT
+	DECLARE @Salary DECIMAL(10, 2)
     DECLARE @HRA DECIMAL(10, 2)
     DECLARE @DA DECIMAL(10, 2)
 	DECLARE @PF DECIMAL(10, 2)
@@ -12,7 +13,7 @@ BEGIN
     DECLARE @GrossSalary DECIMAL(10, 2)
     DECLARE @NetSalary DECIMAL(10, 2)
     -- to calculate the HRA, DA, PF, and IT
-
+	select @EmployeeID = empno , @Salary = salary from emp
     SET @HRA = 0.10 * @Salary
     SET @DA = 0.20 * @Salary
     SET @PF = 0.08 * @Salary
@@ -36,6 +37,4 @@ BEGIN
    
 END
 
-
-
-EXEC Payslip @EmployeeID = 7789, @Salary = 60000;
+EXEC Payslips;
