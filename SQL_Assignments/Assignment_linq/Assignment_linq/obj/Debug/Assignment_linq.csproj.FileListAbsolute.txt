@@ -1,0 +1,7 @@
+D:\Ics_Training_Each_Day\SQL_Assignments\Assignment_linq\Assignment_linq\bin\Debug\Assignment_linq.exe.config
+D:\Ics_Training_Each_Day\SQL_Assignments\Assignment_linq\Assignment_linq\bin\Debug\Assignment_linq.exe
+D:\Ics_Training_Each_Day\SQL_Assignments\Assignment_linq\Assignment_linq\bin\Debug\Assignment_linq.pdb
+D:\Ics_Training_Each_Day\SQL_Assignments\Assignment_linq\Assignment_linq\obj\Debug\Assignment_linq.csproj.AssemblyReference.cache
+D:\Ics_Training_Each_Day\SQL_Assignments\Assignment_linq\Assignment_linq\obj\Debug\Assignment_linq.csproj.CoreCompileInputs.cache
+D:\Ics_Training_Each_Day\SQL_Assignments\Assignment_linq\Assignment_linq\obj\Debug\Assignment_linq.exe
+D:\Ics_Training_Each_Day\SQL_Assignments\Assignment_linq\Assignment_linq\obj\Debug\Assignment_linq.pdb
