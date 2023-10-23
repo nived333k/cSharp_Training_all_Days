@@ -1,0 +1,7 @@
+D:\Ics_Training_Each_Day\All_Day_training_c#\ADO_framework\ADO_frame\ADO_frame\bin\Debug\ADO_frame.exe.config
+D:\Ics_Training_Each_Day\All_Day_training_c#\ADO_framework\ADO_frame\ADO_frame\bin\Debug\ADO_frame.exe
+D:\Ics_Training_Each_Day\All_Day_training_c#\ADO_framework\ADO_frame\ADO_frame\bin\Debug\ADO_frame.pdb
+D:\Ics_Training_Each_Day\All_Day_training_c#\ADO_framework\ADO_frame\ADO_frame\obj\Debug\ADO_frame.csproj.AssemblyReference.cache
+D:\Ics_Training_Each_Day\All_Day_training_c#\ADO_framework\ADO_frame\ADO_frame\obj\Debug\ADO_frame.csproj.CoreCompileInputs.cache
+D:\Ics_Training_Each_Day\All_Day_training_c#\ADO_framework\ADO_frame\ADO_frame\obj\Debug\ADO_frame.exe
+D:\Ics_Training_Each_Day\All_Day_training_c#\ADO_framework\ADO_frame\ADO_frame\obj\Debug\ADO_frame.pdb

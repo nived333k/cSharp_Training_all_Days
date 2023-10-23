@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Data.SqlClient;
+using System.Data;
+using System.Configuration;
 
 namespace CaseStudy
 {
@@ -110,20 +113,75 @@ namespace CaseStudy
             ShowAdminScreen();
         }
 
-        public void ShowStudentRegistrationScreen()
+         public  void ShowStudentRegistrationScreen()
         {
-            Console.Write("Enter Student ID: ");
-            int studentId = Convert.ToInt32(Console.ReadLine());
-            Console.Write("Enter Student Name: ");
-            string studentName = Console.ReadLine();
-            Console.Write("Enter Student Date of Birth (yyyy-MM-dd): ");
-            string stddob = Console.ReadLine();
+            string cs = ConfigurationManager.ConnectionStrings["studentreg"].ConnectionString;
+            SqlConnection con = null;
+            try
+            {
+                using (con = new SqlConnection(cs))
+                {
+                    Console.WriteLine("enter the student_id");
+                    string studentId = Console.ReadLine();
+                    Console.WriteLine("enter the student_name");
+                    string studentName = Console.ReadLine();
+                    Console.WriteLine("enter the student_dob");
+                    string studentdob = Console.ReadLine();
 
-            appEngine.RegisterStudent(new Student(studentId, studentName, stddob));
-            Console.WriteLine("Student registered successfully.");
+
+                    string query = "insert into studentregDB values(@studentId , @studentName , @studentdob)";
+                    SqlCommand cmd = new SqlCommand(query, con);
+
+                    cmd.Parameters.AddWithValue("@studentId",studentId);
+                    cmd.Parameters.AddWithValue("@studentName", studentName);
+                    cmd.Parameters.AddWithValue("@studentdob", studentdob);
+
+                    con.Open();
+                    int a = cmd.ExecuteNonQuery();
+
+                    if (a > 0)
+                    {
+                        Console.WriteLine("The students has been added to DataBase");
+                    }
+                    else
+                    {
+                        Console.WriteLine("The data is not inserted");
+                    }
+                }
+
+
+            }
+
+            catch (SqlException ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            finally
+            {
+                con.Close();
+
+            }
             Console.WriteLine("Press Enter to return to the previous menu...");
+
             Console.ReadLine();
             ShowStudentScreen();
+            
+
+
+
+
+            //Console.Write("Enter Student ID: ");
+            //int studentId = Convert.ToInt32(Console.ReadLine());
+            //Console.Write("Enter Student Name: ");
+            //string studentName = Console.ReadLine();
+            //Console.Write("Enter Student Date of Birth (yyyy-MM-dd): ");
+            //string stddob = Console.ReadLine();
+
+            //appEngine.RegisterStudent(new Student(studentId, studentName, stddob));
+            //Console.WriteLine("Student registered successfully.");
+            //Console.WriteLine("Press Enter to return to the previous menu...");
+            //Console.ReadLine();
+            //ShowStudentScreen();
         }
 
         public void IntroduceNewCourseScreen()

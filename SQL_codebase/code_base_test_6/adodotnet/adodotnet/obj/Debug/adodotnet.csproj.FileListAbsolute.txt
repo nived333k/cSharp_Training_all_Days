@@ -1,0 +1,7 @@
+D:\Ics_Training_Each_Day\SQL_codebase\code_base_test_6\adodotnet\adodotnet\bin\Debug\adodotnet.exe.config
+D:\Ics_Training_Each_Day\SQL_codebase\code_base_test_6\adodotnet\adodotnet\bin\Debug\adodotnet.exe
+D:\Ics_Training_Each_Day\SQL_codebase\code_base_test_6\adodotnet\adodotnet\bin\Debug\adodotnet.pdb
+D:\Ics_Training_Each_Day\SQL_codebase\code_base_test_6\adodotnet\adodotnet\obj\Debug\adodotnet.csproj.AssemblyReference.cache
+D:\Ics_Training_Each_Day\SQL_codebase\code_base_test_6\adodotnet\adodotnet\obj\Debug\adodotnet.csproj.CoreCompileInputs.cache
+D:\Ics_Training_Each_Day\SQL_codebase\code_base_test_6\adodotnet\adodotnet\obj\Debug\adodotnet.exe
+D:\Ics_Training_Each_Day\SQL_codebase\code_base_test_6\adodotnet\adodotnet\obj\Debug\adodotnet.pdb

@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{03274509-3C9A-4D59-9233-1F77EA91549C}</ProjectGuid>
+    <ProjectGuid>{31560CA5-D8F5-47D9-B163-DD1117B89DA5}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>CaseStudy</RootNamespace>
-    <AssemblyName>CaseStudy</AssemblyName>
+    <RootNamespace>ADO_frame</RootNamespace>
+    <AssemblyName>ADO_frame</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -32,9 +32,6 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
-  <PropertyGroup>
-    <StartupObject>CaseStudy.program</StartupObject>
-  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
@@ -47,14 +44,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="App.cs" />
-    <Compile Include="AppEngine.cs" />
-    <Compile Include="Course.cs" />
-    <Compile Include="Enrollment.cs" />
-    <Compile Include="IUserInterface.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Student.cs" />
-    <Compile Include="UserInterface.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
