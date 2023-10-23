@@ -16,7 +16,7 @@ namespace adodotnet
     {
         static void Main(string[] args)
         {
-            //Program.connection();
+            Program.connection();
             Program.showdata();
         }
 

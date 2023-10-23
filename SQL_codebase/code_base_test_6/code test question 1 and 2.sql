@@ -37,31 +37,28 @@ end
 
 select * from emp;
 
--- Declare the variables for the cursor
-DECLARE @empno NUMERIC(4);
-DECLARE @sal INT;
 -- Declare the cursor
 DECLARE emp_cursor CURSOR FOR
 SELECT empno, salary
 FROM emp
 WHERE deptno = 10;
--- Open the cursor
+
 OPEN emp_cursor;
--- Fetch the first row
-FETCH NEXT FROM emp_cursor INTO @empno, @sal;
--- Loop through the cursor
+
+BEGIN TRANSACTION;
+
+FETCH NEXT FROM emp_cursor;
+
 WHILE @@FETCH_STATUS = 0
 BEGIN
-    -- Update the salary with a 15% increase
+-- Update the salary with a 15% increase
     UPDATE emp
     SET salary = salary * 1.15
-    WHERE empno = @empno;
+    WHERE CURRENT OF emp_cursor;
+	FETCH NEXT FROM emp_cursor;
+	end
 
--- Fetch the next row
-    FETCH NEXT FROM emp_cursor INTO @empno, @sal;
-END
--- Close and deallocate the cursor
+COMMIT TRANSACTION;
 CLOSE emp_cursor;
 DEALLOCATE emp_cursor;
--- Select the updated records to verify
 SELECT * FROM emp WHERE deptno = 10;
