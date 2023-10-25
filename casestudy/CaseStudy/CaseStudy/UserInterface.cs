@@ -103,11 +103,42 @@ namespace CaseStudy
 
         public void ShowAllStudentsScreen()
         {
+
             Console.WriteLine("List of Students:");
-            foreach (Student student in appEngine.GetStudents())
+            string cs = ConfigurationManager.ConnectionStrings["studentreg"].ConnectionString;
+            SqlConnection con = null;
+            try
             {
-                Console.WriteLine($"Student ID: {student.Id}, Name: {student.Name}, Date of Birth: {student.DateOfBirth}");
+                using (con = new SqlConnection(cs))
+                {
+                    string query = "select * from studentregDB";
+                    SqlCommand cmd = new SqlCommand(query,con);
+                    con.Open();
+                    SqlDataReader dr = cmd.ExecuteReader();
+                    while (dr.Read())
+                    {
+                        Console.WriteLine("student_id"+" "+dr[0]);
+                        Console.WriteLine("student_name" + " " + dr[1]);
+                        Console.WriteLine("student_ dob" + " " + dr[2]);
+                    }
+                }
+
             }
+            catch (SqlException ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            finally
+            {
+                con.Close();
+
+            }
+
+
+            //foreach (Student student in appEngine.GetStudents())
+            //{
+            //    Console.WriteLine($"Student ID: {student.Id}, Name: {student.Name}, Date of Birth: {student.DateOfBirth}");
+            //}
             Console.WriteLine("Press Enter to return to the previous menu");
             Console.ReadLine();
             ShowAdminScreen();
@@ -127,14 +158,18 @@ namespace CaseStudy
                     string studentName = Console.ReadLine();
                     Console.WriteLine("enter the student_dob");
                     string studentdob = Console.ReadLine();
+                    Console.WriteLine("enter the course id");
+                    string courseid = Console.ReadLine();
 
 
-                    string query = "insert into studentregDB values(@studentId , @studentName , @studentdob)";
+
+                    string query = "insert into studentregDB values(@studentId , @studentName , @studentdob,@courseid)";
                     SqlCommand cmd = new SqlCommand(query, con);
 
                     cmd.Parameters.AddWithValue("@studentId",studentId);
                     cmd.Parameters.AddWithValue("@studentName", studentName);
                     cmd.Parameters.AddWithValue("@studentdob", studentdob);
+                    cmd.Parameters.AddWithValue("@courseid", courseid);
 
                     con.Open();
                     int a = cmd.ExecuteNonQuery();
@@ -186,13 +221,56 @@ namespace CaseStudy
 
         public void IntroduceNewCourseScreen()
         {
-            Console.Write("Enter Course ID: ");
-            int courseId = Convert.ToInt32(Console.ReadLine());
-            Console.Write("Enter Course Name: ");
-            string courseName = Console.ReadLine();
 
-            appEngine.IntroduceCourse(new Course(courseId, courseName));
-            Console.WriteLine("Course introduced successfully.");
+            string cs = ConfigurationManager.ConnectionStrings["studentreg"].ConnectionString;
+            SqlConnection con = null;
+
+            try
+            {
+                using(con = new SqlConnection(cs))
+                {
+                    Console.WriteLine("Enter the course Id");
+                    string course_id = Console.ReadLine();
+                    Console.WriteLine("Enter the course name");
+                    string course_name = Console.ReadLine();
+
+                    string query = "insert into course values(@course_id,@course_name)";
+                    SqlCommand cmd = new SqlCommand(query, con);
+
+                    cmd.Parameters.AddWithValue("@course_id",course_id);
+                    cmd.Parameters.AddWithValue("@course_name", course_name);
+
+                    con.Open();
+                    int a = cmd.ExecuteNonQuery();
+
+                    if (a > 0)
+                    {
+                        Console.WriteLine("The course has been added to DataBase");
+                    }
+                    else
+                    {
+                        Console.WriteLine("The data is not inserted");
+                    }
+
+                }
+            }
+            catch (SqlException ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            finally
+            {
+                con.Close();
+
+            }
+
+            //Console.Write("Enter Course ID: ");
+            //int courseId = Convert.ToInt32(Console.ReadLine());
+            //Console.Write("Enter Course Name: ");
+            //string courseName = Console.ReadLine();
+
+            //appEngine.IntroduceCourse(new Course(courseId, courseName));
+            //Console.WriteLine("Course introduced successfully.");
             Console.WriteLine("Press Enter to return to the previous menu...");
             Console.ReadLine();
             ShowAdminScreen();
@@ -201,10 +279,39 @@ namespace CaseStudy
         public void ShowAllCoursesScreen()
         {
             Console.WriteLine("List of Courses:");
-            foreach (Course course in appEngine.GetCourses())
+            string cs = ConfigurationManager.ConnectionStrings["studentreg"].ConnectionString;
+            SqlConnection con = null;
+            try
             {
-                Console.WriteLine($"Course ID: {course.CourseId}, Name: {course.CourseName}");
+                using (con = new SqlConnection(cs))
+                {
+                    string query = "select * from course";
+                    SqlCommand cmd = new SqlCommand(query, con);
+                    con.Open();
+                    SqlDataReader dr = cmd.ExecuteReader();
+                    while (dr.Read())
+                    {
+                        Console.WriteLine("course_id" + " " + dr[0]);
+                        Console.WriteLine("course_name" + " " + dr[1]);
+                    }
+                }
+
             }
+            catch (SqlException ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            finally
+            {
+                con.Close();
+
+            }
+
+           
+            //foreach (Course course in appEngine.GetCourses())
+            //{
+            //    Console.WriteLine($"Course ID: {course.CourseId}, Name: {course.CourseName}");
+            //}
             Console.WriteLine("Press Enter to return to the previous menu...");
             Console.ReadLine();
             ShowStudentScreen();

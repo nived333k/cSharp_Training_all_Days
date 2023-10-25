@@ -22,18 +22,18 @@ namespace CaseStudy
         private void InitializeData()
         {
             //students
-            students.Add(new Student(1021, "Nived k", "2001-12-20"));
-            students.Add(new Student(6969, "Kiran S", "2001-12-05"));
-            students.Add(new Student(4201, "Kevin Mani", "2001-09-9"));
+            //students.Add(new Student(1021, "Nived k", "2001-12-20"));
+            //students.Add(new Student(6969, "Kiran S", "2001-12-05"));
+            //students.Add(new Student(4201, "Kevin Mani", "2001-09-9"));
 
 
            //course
-            courses.Add(new Course(9876, "Artificial intelligence"));
-            courses.Add(new Course(9823, "Marine Engineering"));
-            courses.Add(new Course(9123, "Petroleum engineering "));
-            courses.Add(new Course(9125, "Aero space"));
-            courses.Add(new Course(9834, "Textile engineering"));
-            courses.Add(new Course(9555, "chemical engineering"));
+            //courses.Add(new Course(9876, "Artificial intelligence"));
+            //courses.Add(new Course(9823, "Marine Engineering"));
+            //courses.Add(new Course(9123, "Petroleum engineering "));
+            //courses.Add(new Course(9125, "Aero space"));
+            //courses.Add(new Course(9834, "Textile engineering"));
+            //courses.Add(new Course(9555, "chemical engineering"));
 
     
         }
