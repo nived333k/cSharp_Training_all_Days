@@ -111,7 +111,7 @@ namespace CaseStudy
             {
                 using (con = new SqlConnection(cs))
                 {
-                    string query = "select * from studentregDB";
+                    string query = "select * from newstudents";
                     SqlCommand cmd = new SqlCommand(query,con);
                     con.Open();
                     SqlDataReader dr = cmd.ExecuteReader();
@@ -152,6 +152,34 @@ namespace CaseStudy
             {
                 using (con = new SqlConnection(cs))
                 {
+                    Console.WriteLine("Enter New student details");
+                    Console.WriteLine("enter the student_id");
+                    string studentId = Console.ReadLine();
+                    Console.WriteLine("enter the student_name");
+                    string studentName = Console.ReadLine();
+                    Console.WriteLine("enter the student_dob");
+                    string studentdob = Console.ReadLine();
+
+                    string query = "insert into newstudents values (@studentId , @studentName , @studentdob)";
+                    SqlCommand cmd = new SqlCommand(query, con);
+
+                    cmd.Parameters.AddWithValue("@studentId", studentId);
+                    cmd.Parameters.AddWithValue("@studentName", studentName);
+                    cmd.Parameters.AddWithValue("@studentdob", studentdob);
+                    con.Open();
+                    int a = cmd.ExecuteNonQuery();
+                    if (a > 0)
+                    {
+                        Console.WriteLine("The students has been added to DataBase");
+                    }
+                    else
+                    {
+                        Console.WriteLine("The data is not inserted");
+                    }
+                }
+                using (con = new SqlConnection(cs))
+                {
+                    Console.WriteLine("Enter the students to register for a course");
                     Console.WriteLine("enter the student_id");
                     string studentId = Console.ReadLine();
                     Console.WriteLine("enter the student_name");
@@ -173,7 +201,6 @@ namespace CaseStudy
 
                     con.Open();
                     int a = cmd.ExecuteNonQuery();
-
                     if (a > 0)
                     {
                         Console.WriteLine("The students has been added to DataBase");
@@ -183,7 +210,7 @@ namespace CaseStudy
                         Console.WriteLine("The data is not inserted");
                     }
                 }
-
+                
 
             }
 
@@ -197,13 +224,8 @@ namespace CaseStudy
 
             }
             Console.WriteLine("Press Enter to return to the previous menu...");
-
             Console.ReadLine();
             ShowStudentScreen();
-            
-
-
-
 
             //Console.Write("Enter Student ID: ");
             //int studentId = Convert.ToInt32(Console.ReadLine());
