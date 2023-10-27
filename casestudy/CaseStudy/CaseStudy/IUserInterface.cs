@@ -15,5 +15,6 @@ namespace CaseStudy
         void ShowStudentRegistrationScreen();
         void IntroduceNewCourseScreen();
         void ShowAllCoursesScreen();
+        void Addstudentscreen();
     }
 }

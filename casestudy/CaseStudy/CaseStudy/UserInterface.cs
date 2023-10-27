@@ -49,9 +49,10 @@ namespace CaseStudy
         {
             Console.WriteLine("Student Menu:");
             Console.WriteLine("1. Show all Courses");
-            Console.WriteLine("2. Register for a Course");
+            Console.WriteLine("2. Register as a New Student");
+            Console.WriteLine("3. Register for a Course");
             Console.WriteLine("3. Exit");
-            Console.Write("Enter your choice 1 , 2 or 3: ");
+            Console.Write("Enter your choice 1 , 2 , 3 or 4: ");
             int choice = Convert.ToInt32(Console.ReadLine());
 
             switch (choice)
@@ -60,10 +61,15 @@ namespace CaseStudy
                     ShowAllCoursesScreen();
                     break;
                 case 2:
+                    Addstudentscreen();
+                    break;
+
+                case 3:
                     ShowStudentRegistrationScreen();
                     break;
-                case 3:
-                    Console.WriteLine("Exiting Student NAme Menu.");
+
+                case 4:
+                    Console.WriteLine("Exiting Student Menu.");
                     ShowFirstScreen();
                     break;
                 default:
@@ -150,33 +156,7 @@ namespace CaseStudy
             SqlConnection con = null;
             try
             {
-                using (con = new SqlConnection(cs))
-                {
-                    Console.WriteLine("Enter New student details");
-                    Console.WriteLine("enter the student_id");
-                    string studentId = Console.ReadLine();
-                    Console.WriteLine("enter the student_name");
-                    string studentName = Console.ReadLine();
-                    Console.WriteLine("enter the student_dob");
-                    string studentdob = Console.ReadLine();
-
-                    string query = "insert into newstudents values (@studentId , @studentName , @studentdob)";
-                    SqlCommand cmd = new SqlCommand(query, con);
-
-                    cmd.Parameters.AddWithValue("@studentId", studentId);
-                    cmd.Parameters.AddWithValue("@studentName", studentName);
-                    cmd.Parameters.AddWithValue("@studentdob", studentdob);
-                    con.Open();
-                    int a = cmd.ExecuteNonQuery();
-                    if (a > 0)
-                    {
-                        Console.WriteLine("The students has been added to DataBase");
-                    }
-                    else
-                    {
-                        Console.WriteLine("The data is not inserted");
-                    }
-                }
+               
                 using (con = new SqlConnection(cs))
                 {
                     Console.WriteLine("Enter the students to register for a course");
@@ -338,6 +318,54 @@ namespace CaseStudy
             Console.ReadLine();
             ShowStudentScreen();
         }
+
+        public void Addstudentscreen()
+        {
+            Console.WriteLine("Add students : ");
+            string cs = ConfigurationManager.ConnectionStrings["studentreg"].ConnectionString;
+            SqlConnection con = null;
+            try
+            {
+                using (con = new SqlConnection(cs))
+                {
+                    Console.WriteLine("Enter New student details");
+                    Console.WriteLine("enter the student_id");
+                    string studentId = Console.ReadLine();
+                    Console.WriteLine("enter the student_name");
+                    string studentName = Console.ReadLine();
+                    Console.WriteLine("enter the student_dob");
+                    string studentdob = Console.ReadLine();
+
+                    string query = "insert into newstudents values (@studentId , @studentName , @studentdob)";
+                    SqlCommand cmd = new SqlCommand(query, con);
+
+                    cmd.Parameters.AddWithValue("@studentId", studentId);
+                    cmd.Parameters.AddWithValue("@studentName", studentName);
+                    cmd.Parameters.AddWithValue("@studentdob", studentdob);
+                    con.Open();
+                    int a = cmd.ExecuteNonQuery();
+                    if (a > 0)
+                    {
+                        Console.WriteLine("The students has been added to DataBase");
+                    }
+                    else
+                    {
+                        Console.WriteLine("The data is not inserted");
+                    }
+                }
+            }
+            catch (SqlException ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            finally
+            {
+                con.Close();
+
+            }
+        }
     }
+
+
 }
     
