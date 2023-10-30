@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!--<script> 
+        $(document).ready(function () {
+            $('button').click(function () {
+                $('p').hide();
+                $('#test1').hide();
+            });
+        });
+    </script>-->
+
+    <!--<script>
+        $(document).ready(function () {
+            $("p").click(function () {
+                $(this).hide();
+            });
+        });
+    </script>-->
+
+    <script>
+        function fn1() {
+            alert('hi');
+            var elem = document.getElementById('d1');
+            alert('Hi2');
+            elem.blur = true;
+            elem.innerHTML = "I am a html element";
+
+
+        }
+    </script>
+  
+</head>
+<body>
+    <!--<h2>This is Nived K</h2>
+    <p>Para 1</p>
+    <p id="test1">Another para</p>
+    <button>Click Me</button>-->
+
+    <!--<h1>This is Nived K</h1>
+    <p>If you click me we will never see again</p>
+    <p>Bye forever</p>-->
+
+    <from>
+        <div id="d1" style="background-color:yellow;height:40px;width:40px">Hellow</div>
+
+        <br />
+        <br />
+        <div style="background-color:yellow;height:90px;width:100px">Nived</div>
+        <input type="button" value="click me " onclick="fn1()"/>
+
+    </from>
+</body>
+</html>

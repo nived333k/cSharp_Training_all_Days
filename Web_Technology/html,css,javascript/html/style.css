@@ -1,0 +1,27 @@
+﻿#h1{
+    border-style:solid;
+    border-width:3px;
+    border-color:darkmagenta;
+    border-radius:5px;
+}
+.odd{
+    border-bottom:3px solid red ;
+    border-top:3px solid orange;
+    border-left:3px solid purple;
+    border-right:3px solid blue;
+    background-color:lightgreen;
+    margin:50px;
+    
+
+}
+body{
+    margin:0px;
+}
+.even {
+    margin: 50px;
+    border-bottom: 3px solid black;
+    border-top: 3px solid black;
+    border-left: 3px solid brown;
+    border-right: 3px solid brown;
+    background-color: lightcoral;
+}

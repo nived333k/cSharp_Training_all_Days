@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <h1>Calculator</h1>
+    <form>
+        <label for="num1">Enter first number:</label>
+        <input type="text" id="num1" placeholder="Enter a number"><br><br>
+
+        <label for="num2">Enter second number:</label>
+        <input type="text" id="num2" placeholder="Enter another number"><br><br>
+
+        <button type="button" onclick="multiply()">Multiply</button>
+        <button type="button" onclick="divide()">Divide</button><br><br>
+
+        <div id="result">This is output</div>
+    </form>
+
+
+        <script>
+            function multiply() {
+            var num1 = parseFloat(document.getElementById('num1').value);
+            var num2 = parseFloat(document.getElementById('num2').value);
+            document.getElementById('result').innerText = 'Multiplication Result: ' + (num1 * num2);
+            }
+
+            function divide() {
+                var num1 = parseFloat(document.getElementById('num1').value);
+            var num2 = parseFloat(document.getElementById('num2').value);
+            document.getElementById('result').innerText =' Division Result: ' + (num1 / num2);
+            }
+    </script>
+
+ 
+</body>
+</html>
+
+
+
+
+
+

@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+<h1>For Loop for Even and Odd from 0 to 15</h1>
+    Till what number?
+<select id="whatnumber">
+    <option value="0">Select number</option>
+    <option value="1">till 1</option>
+    <option value="5">till 5</option>
+    <option value="10">till 10</option>
+    <option value="15">till 15</option>
+</select>
+<br />
+<br />
+<button onclick="doLoop()">Tell odd even</button>
+<br />
+<div id="result"></div>
+
+<script>
+    function doLoop() {
+        var time = document.getElementById('whatnumber').value;
+        var message = '';
+
+        for (var i = 0; i <= time; i++) {
+            message += i + (i % 2 === 0 ? ' even' : ' odd') + '<br>';
+        }
+
+        document.getElementById("result").innerHTML = message;
+    }
+</script>
+</body>
+</html>
