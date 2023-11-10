@@ -1,0 +1,23 @@
+﻿@model List<datafirst.Models.Customer>
+@{
+    ViewBag.Title = "GermanCustomers";
+}
+
+<h2>GermanCustomers</h2>
+
+<table class="table">
+    <tr>
+        <th>Customer ID</th>
+        <th>Company Name</th>
+        <!-- Add other customer properties as needed -->
+    </tr>
+    @foreach (var customer in Model)
+    {
+        <tr>
+            <td>@customer.CustomerID</td>
+            <td>@customer.CompanyName</td>
+            <!-- Add other customer properties as needed -->
+        </tr>
+    }
+</table>
+
